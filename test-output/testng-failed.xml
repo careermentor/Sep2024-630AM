@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.wipro.auto.uo.testcases.LoginTestScenarios">
+      <class name="org.wipro.auto.uo.testcases.USF_TestScenario">
         <methods>
-          <include name="tc01_validcredloginvalidation"/>
+          <include name="validate_usf_testcase1"/>
           <include name="closeBrowser"/>
           <include name="launchBrowser"/>
         </methods>
-      </class> <!-- org.wipro.auto.uo.testcases.LoginTestScenarios -->
+      </class> <!-- org.wipro.auto.uo.testcases.USF_TestScenario -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
